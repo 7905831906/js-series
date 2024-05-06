@@ -10,8 +10,22 @@ beacause of issue in block scope and functional scope
 */
 //accountId = 3//not allowed
 
+/*
+number => 2 to power 53
+bigint
+string => ""
+boolean => true/false
+null=> standalone value
+undefined=> undefined
+symbol => unique
+*/
+
 accountEmail = "Vishal@gmail.com"
 accountCity = "Bengaluru"
 accountPassword = "112233"
 
-console.table([accountEmail, accountId, accountPassword,accountCity,accountState])
+console.log(typeof null)//result-object
+console.log(typeof undefined)//result-undefined
+
+
+//console.table([accountEmail, accountId, accountPassword,accountCity,accountState])
