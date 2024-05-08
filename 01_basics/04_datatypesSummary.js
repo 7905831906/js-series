@@ -33,3 +33,4 @@ const myFunction= function (){
 }
 myFunction();
 console.log(typeof outsideTemp)
+
